@@ -1,0 +1,448 @@
+*{margin: 0;padding: 0;font-family: sans-serif;}
+#header{
+    background:url('../images/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.container{
+    width:80%;
+    margin: 0 auto;
+}
+img.logo {
+    margin-top: 10px;
+    width: 100px;
+}
+.header-text {
+    max-width: 310px;
+    margin-top: 140px;
+}
+span.headerBox {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: #f67c92;
+    margin: 20px 0px;
+}
+
+p.headerP {
+    text-align: justify;
+}
+
+button.headerBtn {
+    margin: 20px 0;
+    padding: 10px 21px;
+    background: transparent;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+span.line-1 {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #f67c92;
+}
+span.line-2 {
+    display: inline-block;
+    width: 80px;
+    height: 2px;
+    background: #f67c92;
+}
+span.line-3 {
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background: #f67c92;
+}
+.line {
+    margin: 30px 0px;
+    line-height: 8px;
+}
+nav#sideNav {
+    position: fixed;
+    top: 0;
+    right: -250px;
+    width: 250px;
+    z-index: 2;
+    background: #f67c92;
+    height: 100vh;
+    transition: 0.6s;
+}
+nav#sideNav ul li {
+    list-style: none;
+    margin: 55px 39px;
+}
+nav#sideNav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.6s;
+}
+nav#sideNav ul li a:hover{
+    color: black;
+}
+img#manuBtn {
+    position: fixed;
+    top: 35px;
+    right: 65px;
+    cursor: pointer;
+    z-index: 2;
+    width: 50px;
+}
+#about, #offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+.left-collum{
+    flex-basis: 50%;
+}
+.left-collum img{
+  width: 100%;
+}
+.right-collum{
+    flex-basis: 50%;
+    text-align: right;
+}
+.about-text {
+    max-width: 500px;
+    display: inline-block;
+    margin-right: 100px;
+}
+.about-text h2 {
+    margin: 40px 0px 10px;
+    font-style: italic;
+    font-size:28px;
+}
+.about-text h3 {
+    font-style: italic;
+    font-size:20px;
+    color: #797979;
+}
+#features{
+    padding: 50px 0px;
+}
+.featureRow{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    width: 80%;
+    flex-wrap: wrap;
+}
+.featurerCol{
+    text-align: center;
+    flex-basis: 25%;
+}
+.featurerCol img{
+    width: 100px;
+}
+.featurerCol h4{
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 400;
+}
+button.featureBtn {
+    padding: 10px 20px;
+    background: transparent;
+    border: 2px solid #f67c92;
+    margin: 60px auto 0;
+    text-align: center;
+    display: inherit;
+    cursor: pointer;
+    font-size: 16px;
+    outline:none;
+}
+#courses{
+    padding: 100px 0;
+}
+.coursesRow{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.coursesLeftCol{
+flex-basis: 50%;
+}
+.coursesRightCol{
+    flex-basis: 50%;
+}
+.coursesRightCol img{
+    width: 100%;
+}
+.coursesText {
+    max-width: 350px;
+}
+.coursesText h1 {
+    font-size: 25px;
+}
+.coursesText button{
+    padding: 10px 17px;
+    margin: 30px 0px 0;
+    background: transparent;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+#offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap ;
+}
+#offer button{
+    padding: 10px 17px;
+    margin: 30px 0px 0;
+    background: transparent;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+#contact{
+    padding: 50px 0;
+}
+.contact-row{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+}
+.contactLeftCol{
+    flex-basis: 50%;
+}
+.contactRightCol{
+    flex-basis: 50%;
+}
+.contactRightCol img{
+    width: 100%;
+}
+#contactBtn{
+    padding: 10px 17px;
+    /* margin: 30px 0px 0; */
+    background: transparent;
+    border: 2px solid #f67c92;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+form.form {
+    max-width: 350px;
+    margin: 30px 0 0;
+}
+
+form.form input {
+    width: 100%;
+    padding: 12px 10px;
+    border: 2px solid #f67c92;
+    outline: none;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    box-shadow: none;
+}
+form.form input:focus{
+    background: lightblue;
+    color: #000;
+}
+.box-button {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#contactBtn
+{
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+hr {
+    width: 100%;
+    border-top: 2px solid #f67c92;
+}
+#footer{
+    padding: 30px 0;
+}
+.footerRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footerLeftCol{
+    flex-basis: 50%;
+    margin-top: 40px;
+   
+}
+.footerLink{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footerInfo h4{
+    color: #f32c92;
+    margin-bottom: 10px;
+}
+.footerInfo small{
+    color: #777;
+    font-size:13px;
+}
+.footerRightCol{
+    flex-basis: 35%;
+}
+.footerRight{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: #777;
+}
+.footerLogo img {
+    width: 100px;
+    display: flex;
+}
+.footerBtn{
+    padding: 10px 38px;
+    outline: none;
+    border:2px solid #f67c92;
+    cursor: pointer;
+    background: transparent;
+    font-weight: bold;
+    color: #777;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright,.footerLogo{
+flex-basis: 40%;
+}
+.icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+    z-index: 1;
+    cursor: pointer;
+}
+.icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 10px;
+}
+@media only screen and ( max-width: 770px){
+    #header{
+        background: none;
+        height: 100%;
+    }
+    .container{
+       margin-left: 50px;
+       margin-right: 50px;
+    }
+    img.logo {
+        margin-top: 10px;
+        width: 70px;
+    }
+    nav#sideNav {
+        position: fixed;
+        top: 0;
+        right: -250px;
+        width: 200px;
+        z-index: 2;
+        background: #f67c92;
+        height: 100vh;
+        transition: 0.6s;
+    }
+    .header-text {
+        margin-top: 100px;
+        }
+        button.headerBtn {
+            margin: 10px 0;
+            padding: 7px 16px;
+            background: transparent;
+            border: 2px solid #f67c92;
+            font-weight: bold;
+            outline: none;
+            cursor: pointer;
+        }
+        img#manuBtn {
+            top: 20px;
+            right: 65px;
+            width: 30px;
+        }
+        .icons img{
+            display: block;
+            width: 15px;
+            margin:15px auto;
+        }
+        .left-collum,.right-collum{
+            flex-basis: 100%;
+        }
+        .about-text {
+            display: inline-block;
+            margin:50px 50px 0;
+        }
+        .about-text h2 {
+            font-style: italic;
+            font-size:20px;
+        }
+        .about-text h3 {
+            font-style: italic;
+            font-size:15px;
+            color: #797979;
+        }
+        .featurerCol{
+            text-align: center;
+            flex-basis: 100%;
+        }
+        #features{
+            padding:0;
+        }
+        button.featureBtn {
+            padding: 10px 20px;
+            background: transparent;
+            border: 2px solid #f67c92;
+            margin: 40px auto 0;
+            text-align: center;
+            display: inherit;
+            cursor: pointer;
+            font-size: 16px;
+            outline:none;
+        }
+        .coursesRightCol{
+            flex-basis: 100%;
+            margin-top: 30px;
+        }
+        .coursesLeftCol{
+            flex-basis: 100%;
+        }
+        #offer{
+            padding: 0;
+            display: flex;
+            align-items: center;
+            flex-wrap:wrap ;
+        }
+        .contactLeftCol{
+            flex-basis: 100%;
+        }
+        .contactRightCol{
+            flex-basis: 100%;
+            margin-top: 50px;
+        }
+        .footerLeftCol{
+            flex-basis: 100%;  
+        }
+        .footerRightCol{
+            flex-basis: 100%;  
+        }
+        .footerInfo{
+            flex-basis: 50%;
+            margin-bottom: 10px;
+        }
+        #about{
+            padding:0;
+            display: flex;
+            align-items: center;
+            flex-wrap:wrap ;
+        }
+}
